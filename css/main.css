@@ -1,0 +1,51 @@
+body{background-color: lightgray;}
+
+form{
+    width: 30%;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.4);
+}
+
+form, h3{
+    color: white;
+}
+
+input::placeholder, textarea::placeholder{
+    color: rgb(134, 134, 134);
+}
+
+.input-el{
+    width: 90%;
+    min-height: 35px;
+    margin-top: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+}
+
+button{
+    width: 90%;
+    min-height: 35px;
+    margin-top: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(37, 172, 37);
+}
+
+select, button{
+    width: 95% !important;
+}
+
+/**/
